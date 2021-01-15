@@ -1,0 +1,17 @@
+environments:
+ sys1:
+    models:
+    - app-type: app1
+      service-type: fds
+      enable: true
+    - app-type: app2
+      service-type: era
+      enable: true
+ sys2:
+    models:
+    - app-type: app1
+      service-type: fds
+      enable: true
+    - app-type: app2
+      service-type: era
+      enable: true

@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+type Info struct {
+  name string
+  age int
+}
+
+func (i Info) display() {
+  fmt.Println("name is:", i.name, "age is:", i.age)
+}
+
+func main() {
+
+}
